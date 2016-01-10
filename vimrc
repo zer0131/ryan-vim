@@ -94,11 +94,11 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Plugin 'sickill/vim-monokai'
 Plugin 'kien/ctrlp.vim'
-" Plugin 'Shougo/neocomplete.vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 " 以下备用
+" Plugin 'Shougo/neocomplete.vim'
 " Plugin 'altercation/vim-colors-solarized'
 " Plugin 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
