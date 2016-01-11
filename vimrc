@@ -58,6 +58,9 @@ set number
 set nowrap
 " 突出显示当前行
 set cursorline
+" 去掉输入错误的提示声音
+set noerrorbells
+set vb t_vb= 
 " F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
 " F3 显示可打印字符开关
