@@ -69,7 +69,7 @@ nnoremap <F3> :set list! list?<CR>
 nnoremap <F4> :set wrap! wrap?<CR>
 " 鼠标开关
 nmap mm :set mouse=a<CR>
-nmap m :set mouse=<CR>
+nmap m :set mouse-=a<CR>
 
 " 针对Mac设置字体
 " set guifont=Monaco:h14
