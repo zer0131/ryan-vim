@@ -15,7 +15,7 @@ set nobackup
 " 关闭交换文件
 set noswapfile
 " 鼠标启用
-" set mouse=a
+set mouse=a
 " 显示当前的行号列号
 set ruler
 " 在状态栏显示正在输入的命令
@@ -67,6 +67,9 @@ nnoremap <F2> :set number! nonu?<CR>
 nnoremap <F3> :set list! list?<CR>
 " F4 换行开关
 nnoremap <F4> :set wrap! wrap?<CR>
+" 鼠标开关
+map mm :set mouse=a<CR>
+map m :set mouse=<CR>
 
 " 针对Mac设置字体
 " set guifont=Monaco:h14
