@@ -103,6 +103,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
+Plugin 'Yggdroot/indentLine'
 " 以下备用
 " Plugin 'Shougo/neocomplete.vim'
 " Plugin 'altercation/vim-colors-solarized'
@@ -135,3 +136,6 @@ let g:ctrlp_map = '<c-h>'
 set statusline+=%{fugitive#statusline()}
 " Always show the status line - use 2 lines for the status bar
 set laststatus=2
+
+" indentLine显示设置
+nnoremap <F6> :IndentLinesToggle<CR>
