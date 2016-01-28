@@ -54,8 +54,8 @@ set shiftround
 set encoding=utf-8
 " 显示行号
 set number
-" 取消换行
-set nowrap
+" 换行
+set wrap
 " 突出显示当前行
 set cursorline
 " 去掉输入错误的提示声音
