@@ -104,6 +104,7 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/syntastic'
 Plugin 'Yggdroot/indentLine'
+Plugin 'eshion/vim-sftp-sync'
 " 以下备用
 " Plugin 'Shougo/neocomplete.vim'
 " Plugin 'altercation/vim-colors-solarized'
@@ -139,3 +140,32 @@ set laststatus=2
 
 " indentLine显示设置
 nnoremap <F6> :IndentLinesToggle<CR>
+
+" vim-sftp-sync配置
+"let g:vim_sftp_configs = {
+"\      'sample_server_1' : {
+"\       'upload_on_save'   : 1,
+"\       'download_on_open' : 0,
+"\       'confirm_downloads': 1,
+"\       'confirm_uploads'  : 0,
+"\       'local_base_path'  : '/Users/name/sample/',
+"\       'remote_base_path' : '/var/www/sample/',
+"\       'sftp_command' : 'ftp',
+"\       'user' : 'username',
+"\       'pass' : 'password',
+"\       'host' : '127.0.0.1'
+"\   },
+"\   'sample_server_2' : {
+"\       'upload_on_save'   : 1,
+"\       'download_on_open' : 1,
+"\       'confirm_downloads': 0,
+"\       'confirm_uploads'  : 0,
+"\       'local_base_path'  : '/Users/development',
+"\       'remote_base_path' : '/var/www/development/trunk/',
+"\       'sftp_command' : 'sftp',
+"\       'complete_prompt_regexp' : '100\%',
+"\       'user' : 'username',
+"\       'pass' : 'password',
+"\       'host' : '-P22 user@127.0.0.1'
+"\   }
+"\}
