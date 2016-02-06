@@ -52,6 +52,8 @@ set expandtab
 set shiftround
 " 设置新文件的编码为 UTF-8
 set encoding=utf-8
+" 兼容各平台编码
+set fileencodings=ucs-bom,utf-8,cp936
 " 显示行号
 set number
 " 换行
