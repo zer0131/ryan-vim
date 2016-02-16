@@ -132,7 +132,8 @@ set t_Co=256
 map <C-t> :NERDTreeToggle<CR>
 
 " ctrlp设置
-let g:ctrlp_map = '<c-h>'
+let g:ctrlp_map = '<c-p>'
+map <C-h> :CtrlPBuffer<CR>
 
 " fugitive、powerline设置状态行
 " 命令行（在状态行下）的高度，默认为1，这里是2
