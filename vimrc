@@ -63,6 +63,8 @@ set cursorline
 " 去掉输入错误的提示声音
 set noerrorbells
 set vb t_vb= 
+" 插入模式下启用回退删除
+set backspace=indent,eol,start
 " F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
 " F3 显示可打印字符开关
