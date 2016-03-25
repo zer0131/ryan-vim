@@ -146,6 +146,7 @@ set laststatus=2
 
 " indentLine显示设置
 nnoremap <F6> :IndentLinesToggle<CR>
+let g:indentLine_enabled = 0
 
 " vim-sftp-sync配置
 "let g:vim_sftp_configs = {
