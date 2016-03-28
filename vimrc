@@ -148,6 +148,10 @@ set laststatus=2
 nnoremap <F6> :IndentLinesToggle<CR>
 let g:indentLine_enabled = 0
 
+" syntastic设置
+nnoremap <F7> :SyntasticToggleMode<CR>
+nnoremap <F8> :SyntasticReset<CR>
+
 " vim-sftp-sync配置
 "let g:vim_sftp_configs = {
 "\      'sample_server_1' : {
