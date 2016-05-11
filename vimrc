@@ -65,6 +65,12 @@ set noerrorbells
 set vb t_vb= 
 " 插入模式下启用回退删除
 set backspace=indent,eol,start
+" 基于缩进的代码折叠
+set foldmethod=indent
+" 启动 vim 时关闭折叠代码
+set nofoldenable
+" 空格折叠快捷键设置
+nnoremap <space> za<CR>
 " F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
 " F3 显示可打印字符开关
