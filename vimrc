@@ -77,6 +77,8 @@ nnoremap <F2> :set number! nonu?<CR>
 nnoremap <F3> :set list! list?<CR>
 " F4 换行开关
 nnoremap <F4> :set wrap! wrap?<CR>
+" 粘贴模式开关
+set pastetoggle=<F9>
 " 鼠标开关
 nmap mm :set mouse=a<CR>
 nmap m :set mouse-=a<CR>
