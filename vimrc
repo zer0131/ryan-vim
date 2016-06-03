@@ -171,8 +171,9 @@ let g:indentLine_enabled = 0
 nnoremap <F7> :SyntasticToggleMode<CR>
 nnoremap <F8> :SyntasticReset<CR>
 
-" airline设置
-let g:airline#extensions#tabline#enabled = 1
+"airline设置
+let g:airline_theme='dark'
+"let g:airline#extensions#tabline#enabled = 1
 
 " vim-sftp-sync配置
 "let g:vim_sftp_configs = {
