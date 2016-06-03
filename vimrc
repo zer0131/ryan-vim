@@ -2,6 +2,8 @@
 syntax on
 " 检测文件类型
 " filetype on
+"设置leader
+let mapleader=','
 " 针对不同的文件类型采用不同的缩进格式
 filetype indent on
 " 允许插件
@@ -107,20 +109,23 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-" 以下常用
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'fatih/vim-go'
-Plugin 'sickill/vim-monokai'
 Plugin 'kien/ctrlp.vim'
-Plugin 'Lokaltog/vim-powerline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/syntastic'
 Plugin 'Yggdroot/indentLine'
 Plugin 'eshion/vim-sftp-sync'
-" 以下备用
-" Plugin 'Shougo/neocomplete.vim'
-" Plugin 'altercation/vim-colors-solarized'
-" Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Shougo/neocomplete.vim'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Lokaltog/vim-powerline'
+Plugin 'sickill/vim-monokai'
+"Plugin 'tomasr/molokai'
+"Plugin 'altercation/vim-colors-solarized'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -135,7 +140,13 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " 主题设置
+"let g:solarized_termcolors=256
+"syntax enable
 colorscheme monokai
+"set background=dark
+"let g:molokai_original = 1
+"let g:rehash256 = 1
+"set background=dark
 set t_Co=256
 
 " NERDTree设置
@@ -159,6 +170,9 @@ let g:indentLine_enabled = 0
 " syntastic设置
 nnoremap <F7> :SyntasticToggleMode<CR>
 nnoremap <F8> :SyntasticReset<CR>
+
+" airline设置
+let g:airline#extensions#tabline#enabled = 1
 
 " vim-sftp-sync配置
 "let g:vim_sftp_configs = {
