@@ -83,7 +83,7 @@ nnoremap <F4> :set wrap! wrap?<CR>
 set pastetoggle=<F9>
 " 鼠标开关
 nmap mm :set mouse=a<CR>
-nmap m :set mouse-=a<CR>
+nmap mu :set mouse-=a<CR>
 
 " 针对Mac设置字体
 " set guifont=Monaco:h14
