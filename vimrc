@@ -86,7 +86,9 @@ nmap mm :set mouse=a<CR>
 nmap mu :set mouse-=a<CR>
 
 "针对Mac设置字体
-"set guifont=Monaco:h14
+if has("gui_running")
+    set guifont=Monaco:h14
+endif
 
 "自动加载
 "autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
