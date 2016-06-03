@@ -143,7 +143,7 @@ filetype plugin indent on    "required
 set t_Co=256
 "let g:molokai_original = 1
 "let g:rehash256 = 1
-"let g:solarized_termcolors=256
+"let g:solarized_termcolors=16
 "set background=dark
 colorscheme monokai
 
