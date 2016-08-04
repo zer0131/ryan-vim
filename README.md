@@ -11,7 +11,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 git clone https://github.com/zer0131/ryan-vim.git
 
-cp ryan_vim/vimrc ~/.vimrc
+cp ryan-vim/vimrc ~/.vimrc
 ```
 
 ## 使用Vundle安装插件
