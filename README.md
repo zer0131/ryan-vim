@@ -21,4 +21,5 @@ git clone https://github.com/zer0131/ryan-vim.git ~/.vimrc
 ## 注意
 
 > Vundle使用请点击链接：[Vundle手册](https://github.com/VundleVim/Vundle.vim)
+
 > 可根据自己的需要配置**.vimrc**文件
