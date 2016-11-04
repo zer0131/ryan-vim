@@ -17,7 +17,7 @@ set nobackup
 "关闭交换文件
 set noswapfile
 "鼠标启用
-set mouse=a
+"set mouse=a
 "显示当前的行号列号
 set ruler
 "在状态栏显示正在输入的命令
@@ -115,8 +115,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/syntastic'
@@ -124,7 +124,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'eshion/vim-sftp-sync'
 "Plugin 'Shougo/neocomplete.vim'
 "Plugin 'Valloric/YouCompleteMe'
-"Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/vim-powerline'
 Plugin 'sickill/vim-monokai'
 "Plugin 'tomasr/molokai'
 "Plugin 'altercation/vim-colors-solarized'
@@ -172,8 +172,11 @@ nnoremap <F7> :SyntasticToggleMode<CR>
 nnoremap <F8> :SyntasticReset<CR>
 
 "airline设置
-let g:airline_theme='dark'
+"let g:airline_theme='dark'
 "let g:airline#extensions#tabline#enabled = 1
+
+"vim-powerline设置
+let g:Powerline_symbols = 'fancy'
 
 "vim-sftp-sync配置
 "let g:vim_sftp_configs = {
