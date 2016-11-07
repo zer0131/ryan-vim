@@ -17,7 +17,7 @@ set nobackup
 "关闭交换文件
 set noswapfile
 "鼠标启用
-"set mouse=a
+set mouse=a
 "显示当前的行号列号
 set ruler
 "在状态栏显示正在输入的命令
@@ -176,7 +176,7 @@ nnoremap <F8> :SyntasticReset<CR>
 "let g:airline#extensions#tabline#enabled = 1
 
 "vim-powerline设置
-let g:Powerline_symbols = 'fancy'
+"let g:Powerline_symbols = 'fancy'
 
 "vim-sftp-sync配置
 "let g:vim_sftp_configs = {
