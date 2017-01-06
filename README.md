@@ -24,6 +24,6 @@ cp ryan-vim/vimrc ~/.vimrc
 
 ## 插件介绍
 
-* nerdtree
+### nerdtree
 左侧目录结构，git地址：[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 
