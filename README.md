@@ -16,8 +16,29 @@ cp ryan-vim/vimrc ~/.vimrc
 
 ## 使用Vundle安装插件
 
+安装插件
 ```
 :PluginInstall
+```
+
+更新插件
+```
+:PluginUpdate
+```
+
+安装插件列表
+```
+:PluginList
+```
+
+清理无用插件
+```
+:PluginClean
+```
+
+搜索插件
+```
+:PluginSearch [plugin name]
 ```
 
 * Vundle使用请点击链接：[Vundle手册](https://github.com/VundleVim/Vundle.vim)
