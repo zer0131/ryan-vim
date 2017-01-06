@@ -20,8 +20,10 @@ cp ryan-vim/vimrc ~/.vimrc
 :PluginInstall
 ```
 
-## 注意
+* Vundle使用请点击链接：[Vundle手册](https://github.com/VundleVim/Vundle.vim)
 
-> Vundle使用请点击链接：[Vundle手册](https://github.com/VundleVim/Vundle.vim)
+## 插件介绍
 
-> 可根据自己的需要配置**.vimrc**文件
+* nerdtree
+  左侧目录结构，git地址：[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
+
