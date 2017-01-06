@@ -22,8 +22,48 @@ cp ryan-vim/vimrc ~/.vimrc
 
 * Vundle使用请点击链接：[Vundle手册](https://github.com/VundleVim/Vundle.vim)
 
-## 插件介绍
+## 常用插件介绍
 
 ### nerdtree
-左侧目录结构，git地址：[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 
+左侧目录结构插件，git地址：[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
+
+### nerdcommenter
+
+注释插件，git地址：[https://github.com/scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter)
+
+### ctrlp.vim
+
+全目录搜索插件，git地址：[https://github.com/kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)
+
+### indentLine
+
+代码缩进线显示插件，git地址：[https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
+
+### vim-powerline
+
+vim状态栏插件，git地址：[https://github.com/Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)
+
+### vim-monokai
+
+主题，git地址：[https://github.com/sickill/vim-monokai](https://github.com/sickill/vim-monokai)
+
+### vim-fugitive
+
+vim中使用git命令插件，git地址：[https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+### vim-gitgutter
+
+vim中展示git中修改diff，git地址：[https://github.com/airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
+### syntastic
+
+代码语法检测插件，git地址：[https://github.com/vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
+
+### vim-sftp-sync
+
+vim中ftp上传插件，git地址：[https://github.com/eshion/vim-sftp-sync](https://github.com/eshion/vim-sftp-sync)
+
+### vim-go
+
+vim中golang插件，git地址：[https://github.com/fatih/vim-go](https://github.com/fatih/vim-go)
