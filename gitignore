@@ -91,6 +91,7 @@ $RECYCLE.BIN/
 
 # intellij idea
 .idea/
+*.iml
 
 # NetBeans
 nbproject/
