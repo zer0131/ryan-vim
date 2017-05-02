@@ -150,7 +150,11 @@ set t_Co=256
 colorscheme monokai
 
 "NERDTree设置
-map <C-t> :NERDTreeToggle<CR>
+"在未定义文件的情况下打开目录
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+map <C-n> :NERDTreeToggle<CR>
 
 "ctrlp设置
 let g:ctrlp_map = '<c-p>'
