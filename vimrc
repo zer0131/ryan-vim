@@ -178,6 +178,7 @@ nnoremap <F8> :SyntasticReset<CR>
 
 "tagbar设置
 "nmap <F3> :TagbarToggle<CR>
+"let g:tagbar_ctags_bin = '' "设置ctags bin
 
 "airline设置
 "let g:airline_theme='dark'
