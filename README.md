@@ -88,3 +88,9 @@ vim中ftp上传插件，git地址：[https://github.com/eshion/vim-sftp-sync](ht
 ### vim-go
 
 vim中golang插件，git地址：[https://github.com/fatih/vim-go](https://github.com/fatih/vim-go)
+
+### tagbar
+
+生成文件标签插件，git地址：[https://github.com/majutsushi/tagbar](https://github.com/majutsushi/tagbar)
+
+这个插件使用前提是需要安装[ctags](http://ctags.sourceforge.net/)

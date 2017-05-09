@@ -76,7 +76,7 @@ nnoremap <space> za<CR>
 "F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
 "F3 显示可打印字符开关
-nnoremap <F3> :set list! list?<CR>
+"nnoremap <F3> :set list! list?<CR>
 "F4 换行开关
 nnoremap <F4> :set wrap! wrap?<CR>
 "粘贴模式开关
@@ -126,6 +126,7 @@ Plugin 'eshion/vim-sftp-sync'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'sickill/vim-monokai'
+"Plugin 'majutsushi/tagbar' "需要先安装ctags5.5+
 "Plugin 'tomasr/molokai'
 "Plugin 'altercation/vim-colors-solarized'
 "All of your Plugins must be added before the following line
@@ -174,6 +175,9 @@ let g:indentLine_enabled = 0
 "syntastic设置
 nnoremap <F7> :SyntasticToggleMode<CR>
 nnoremap <F8> :SyntasticReset<CR>
+
+"tagbar设置
+"nmap <F3> :TagbarToggle<CR>
 
 "airline设置
 "let g:airline_theme='dark'
