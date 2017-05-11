@@ -175,6 +175,7 @@ let g:indentLine_enabled = 0
 "syntastic设置
 nnoremap <F7> :SyntasticToggleMode<CR>
 nnoremap <F8> :SyntasticReset<CR>
+"let g:syntastic_php_checkers = ['phpcs'] "设置php语法检测工具，需要先安装PHP_CodeSniffer
 
 "tagbar设置
 "nmap <F3> :TagbarToggle<CR>
