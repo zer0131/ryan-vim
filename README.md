@@ -81,8 +81,6 @@ vim中展示git中修改diff，git地址：[https://github.com/airblade/vim-gitg
 
 代码语法检测插件，git地址：[https://github.com/vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
 
-关于PHP语法检测默认的支持不够完美，推荐[PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
-
 ### vim-sftp-sync
 
 vim中ftp上传插件，git地址：[https://github.com/eshion/vim-sftp-sync](https://github.com/eshion/vim-sftp-sync)
