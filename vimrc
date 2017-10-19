@@ -17,7 +17,7 @@ set nobackup
 "关闭交换文件
 set noswapfile
 "鼠标启用
-set mouse=a
+"set mouse=a
 "显示当前的行号列号
 set ruler
 "在状态栏显示正在输入的命令
@@ -113,22 +113,19 @@ Plugin 'VundleVim/Vundle.vim'
 "Keep Plugin commands between vundle#begin/end.
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'fatih/vim-go'
+"Plugin 'fatih/vim-go' "需要使用go时打开
 Plugin 'kien/ctrlp.vim'
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Yggdroot/indentLine'
-Plugin 'eshion/vim-sftp-sync'
-"Plugin 'Shougo/neocomplete.vim'
-"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'eshion/vim-sftp-sync'
+"Plugin 'Valloric/YouCompleteMe' "自动完成插件未开启
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'sickill/vim-monokai'
+Plugin 'dyng/ctrlsf.vim' "全局搜索插件，先安装ag
 "Plugin 'majutsushi/tagbar' "需要先安装ctags5.5+
-"Plugin 'tomasr/molokai'
-"Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized' "solarized主题
 "All of your Plugins must be added before the following line
 call vundle#end()            "required
 filetype plugin indent on    "required
@@ -179,10 +176,6 @@ nnoremap <F8> :SyntasticReset<CR>
 "tagbar设置
 "nmap <F3> :TagbarToggle<CR>
 "let g:tagbar_ctags_bin = '' "设置ctags bin
-
-"airline设置
-"let g:airline_theme='dark'
-"let g:airline#extensions#tabline#enabled = 1
 
 "vim-powerline设置
 "let g:Powerline_symbols = 'fancy'

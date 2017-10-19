@@ -94,3 +94,9 @@ vim中golang插件，git地址：[https://github.com/fatih/vim-go](https://githu
 生成文件标签插件，git地址：[https://github.com/majutsushi/tagbar](https://github.com/majutsushi/tagbar)
 
 这个插件使用前提是需要安装[ctags](http://ctags.sourceforge.net/)
+
+### ctrlsf.vim
+
+全局搜索工具，git地址：[https://github.com/dyng/ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)
+
+插件使用前先安装ag或ack，建议安装ag，速度更快；[ag](https://github.com/ggreer/the_silver_searcher)
