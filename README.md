@@ -45,58 +45,19 @@ cp ryan-vim/vimrc ~/.vimrc
 
 ## 常用插件介绍
 
-### nerdtree
+Name|Info|Url|Remark
+------|------|------|------
+nerdtree|目录结构插件|[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)|N/A
+nerdcommenter|注释插件|[https://github.com/scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter)|N/A
+ctrlp.vim|搜索文件插件|[https://github.com/kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)|N/A
+indentLine|代码缩进线显示插件|[https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)|N/A
+vim-powerline|状态栏插件|[https://github.com/Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)|N/A
+vim-monokai|monokai主题|[https://github.com/sickill/vim-monokai](https://github.com/sickill/vim-monokai)|N/A
+vim-fugitive|git命令插件|[https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)|N/A
+vim-gitgutter|vim中展示git中修改diff|[https://github.com/airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)|N/A
+syntastic|语法检测|[https://github.com/vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)|N/A
+vim-sftp-sync|ftp插件|[https://github.com/eshion/vim-sftp-sync](https://github.com/eshion/vim-sftp-sync)|N/A
+vim-go|golang插件|[https://github.com/fatih/vim-go](https://github.com/fatih/vim-go)|N/A
+tagbar|生成文件标签插件|[https://github.com/majutsushi/tagbar](https://github.com/majutsushi/tagbar)|这个插件使用前提是需要安装[ctags](http://ctags.sourceforge.net/)
+ctrlsf.vim|全局搜索工具|[https://github.com/dyng/ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)|插件使用前先安装ag或ack，建议安装ag，速度更快[ag](https://github.com/ggreer/the_silver_searcher)
 
-左侧目录结构插件，git地址：[https://github.com/scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
-
-### nerdcommenter
-
-注释插件，git地址：[https://github.com/scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter)
-
-### ctrlp.vim
-
-全目录搜索插件，git地址：[https://github.com/kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)
-
-### indentLine
-
-代码缩进线显示插件，git地址：[https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)
-
-### vim-powerline
-
-vim状态栏插件，git地址：[https://github.com/Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)
-
-### vim-monokai
-
-主题，git地址：[https://github.com/sickill/vim-monokai](https://github.com/sickill/vim-monokai)
-
-### vim-fugitive
-
-vim中使用git命令插件，git地址：[https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)
-
-### vim-gitgutter
-
-vim中展示git中修改diff，git地址：[https://github.com/airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-
-### syntastic
-
-代码语法检测插件，git地址：[https://github.com/vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
-
-### vim-sftp-sync
-
-vim中ftp上传插件，git地址：[https://github.com/eshion/vim-sftp-sync](https://github.com/eshion/vim-sftp-sync)
-
-### vim-go
-
-vim中golang插件，git地址：[https://github.com/fatih/vim-go](https://github.com/fatih/vim-go)
-
-### tagbar
-
-生成文件标签插件，git地址：[https://github.com/majutsushi/tagbar](https://github.com/majutsushi/tagbar)
-
-这个插件使用前提是需要安装[ctags](http://ctags.sourceforge.net/)
-
-### ctrlsf.vim
-
-全局搜索工具，git地址：[https://github.com/dyng/ctrlsf.vim](https://github.com/dyng/ctrlsf.vim)
-
-插件使用前先安装ag或ack，建议安装ag，速度更快；[ag](https://github.com/ggreer/the_silver_searcher)
