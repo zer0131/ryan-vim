@@ -112,13 +112,13 @@ Plugin 'VundleVim/Vundle.vim'
 "The following are examples of different formats supported.
 "Keep Plugin commands between vundle#begin/end.
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter'
+"Plugin 'scrooloose/nerdcommenter'
 "Plugin 'fatih/vim-go' "需要使用go时打开
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'Yggdroot/indentLine'
+"Plugin 'Yggdroot/indentLine'
 "Plugin 'eshion/vim-sftp-sync'
 "Plugin 'Valloric/YouCompleteMe' "自动完成插件未开启
 Plugin 'Lokaltog/vim-powerline'
@@ -166,8 +166,8 @@ set statusline+=%{fugitive#statusline()}
 set laststatus=2
 
 "indentLine显示设置
-nnoremap <F6> :IndentLinesToggle<CR>
-let g:indentLine_enabled = 0
+"nnoremap <F6> :IndentLinesToggle<CR>
+"let g:indentLine_enabled = 0
 
 "syntastic设置
 nnoremap <F7> :SyntasticToggleMode<CR>
