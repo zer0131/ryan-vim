@@ -115,7 +115,7 @@ Plugin 'scrooloose/nerdtree'
 "Plugin 'scrooloose/nerdcommenter'
 "Plugin 'fatih/vim-go' "需要使用go时打开
 Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-syntastic/syntastic'
 "Plugin 'Yggdroot/indentLine'
@@ -161,7 +161,7 @@ map <C-m> :CtrlPMRU<CR>
 
 "fugitive、powerline设置状态行
 "命令行（在状态行下）的高度，默认为1，这里是2
-set statusline+=%{fugitive#statusline()}
+"set statusline+=%{fugitive#statusline()}
 "Always show the status line - use 2 lines for the status bar
 set laststatus=2
 
