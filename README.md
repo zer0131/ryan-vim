@@ -1,5 +1,9 @@
 # VIM配置
 
+## 效果图
+
+![vim view](./vim-view.jpg)
+
 ## 安装Vundle
 
 ```
