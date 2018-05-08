@@ -123,7 +123,7 @@ Plugin 'vim-syntastic/syntastic'
 "Plugin 'Valloric/YouCompleteMe' "自动完成插件未开启
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'sickill/vim-monokai'
-Plugin 'dyng/ctrlsf.vim' "全局搜索插件，先安装ag
+"Plugin 'dyng/ctrlsf.vim' "全局搜索插件，先安装ag
 "Plugin 'majutsushi/tagbar' "需要先安装ctags5.5+
 "Plugin 'altercation/vim-colors-solarized' "solarized主题
 "All of your Plugins must be added before the following line
