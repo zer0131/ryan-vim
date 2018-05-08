@@ -4,6 +4,10 @@
 
 ![vim view](./vim-view.jpg)
 
+## 安装vim
+
+[下载地址](https://github.com/vim/vim/releases)
+
 ## 安装Vundle
 
 ```
