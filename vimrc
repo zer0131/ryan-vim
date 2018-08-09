@@ -75,10 +75,8 @@ set nofoldenable
 nnoremap <space> za<CR>
 "F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
-"F4 换行开关
-nnoremap <F3> :set wrap! wrap?<CR>
-"粘贴模式开关
-set pastetoggle=<F9>
+"粘贴模式开关(shift+f9)
+set pastetoggle=<S-F9>
 "鼠标开关
 nmap mm :set mouse=a<CR>
 nmap mu :set mouse-=a<CR>
@@ -164,12 +162,12 @@ map <C-m> :CtrlPMRU<CR>
 set laststatus=2
 
 "indentLine显示设置
-"nnoremap <F6> :IndentLinesToggle<CR>
+"nnoremap <S-F6> :IndentLinesToggle<CR>
 "let g:indentLine_enabled = 0
 
 "syntastic设置
-nnoremap <F7> :SyntasticToggleMode<CR>
-nnoremap <F8> :SyntasticReset<CR>
+nnoremap <S-F7> :SyntasticToggleMode<CR>
+nnoremap <S-F8> :SyntasticReset<CR>
 
 "tagbar设置
 "nmap <F3> :TagbarToggle<CR>
