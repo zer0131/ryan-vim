@@ -75,10 +75,8 @@ set nofoldenable
 nnoremap <space> za<CR>
 "F2 行号开关，用于鼠标复制代码用
 nnoremap <F2> :set number! nonu?<CR>
-"F3 显示可打印字符开关
-"nnoremap <F3> :set list! list?<CR>
 "F4 换行开关
-nnoremap <F4> :set wrap! wrap?<CR>
+nnoremap <F3> :set wrap! wrap?<CR>
 "粘贴模式开关
 set pastetoggle=<F9>
 "鼠标开关
