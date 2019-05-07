@@ -81,6 +81,12 @@ set pastetoggle=<S-F9>
 nmap mm :set mouse=a<CR>
 nmap mu :set mouse-=a<CR>
 
+"分屏窗口移动
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
 "针对Mac设置字体
 if has("gui_running")
     set guifont=Monaco:h14
@@ -152,8 +158,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 "ctrlp设置
 let g:ctrlp_map = '<c-p>'
-map <C-l> :CtrlPBuffer<CR>
-map <C-m> :CtrlPMRU<CR>
 
 "fugitive、powerline设置状态行
 "命令行（在状态行下）的高度，默认为1，这里是2
