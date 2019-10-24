@@ -60,7 +60,9 @@ nerdcommenter|注释插件|[https://github.com/scrooloose/nerdcommenter](https:/
 ctrlp.vim|搜索文件插件|[https://github.com/kien/ctrlp.vim](https://github.com/kien/ctrlp.vim)|N/A
 indentLine|代码缩进线显示插件|[https://github.com/Yggdroot/indentLine](https://github.com/Yggdroot/indentLine)|N/A
 vim-powerline|状态栏插件|[https://github.com/Lokaltog/vim-powerline](https://github.com/Lokaltog/vim-powerline)|N/A
+vim-airline|状态栏|[https://github.com/vim-airline/vim-airline](https://github.com/vim-airline/vim-airline)|N/A
 vim-monokai|monokai主题|[https://github.com/sickill/vim-monokai](https://github.com/sickill/vim-monokai)|N/A
+papercolor-theme|主题|[https://github.com/NLKNguyen/papercolor-theme](https://github.com/NLKNguyen/papercolor-theme)|N/A
 vim-fugitive|git命令插件|[https://github.com/tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)|N/A
 vim-gitgutter|vim中展示git中修改diff|[https://github.com/airblade/vim-gitgutter](https://github.com/airblade/vim-gitgutter)|N/A
 syntastic|语法检测|[https://github.com/vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)|N/A

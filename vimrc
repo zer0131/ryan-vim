@@ -123,11 +123,14 @@ Plugin 'vim-syntastic/syntastic'
 "Plugin 'Yggdroot/indentLine'
 "Plugin 'eshion/vim-sftp-sync'
 "Plugin 'Valloric/YouCompleteMe' "自动完成插件未开启
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'sickill/vim-monokai'
+"Plugin 'Lokaltog/vim-powerline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 "Plugin 'dyng/ctrlsf.vim' "全局搜索插件，先安装ag
 "Plugin 'majutsushi/tagbar' "需要先安装ctags5.5+
 "Plugin 'altercation/vim-colors-solarized' "solarized主题
+"Plugin 'sickill/vim-monokai'
+Plugin 'NLKNguyen/papercolor-theme'
 "All of your Plugins must be added before the following line
 call vundle#end()            "required
 filetype plugin indent on    "required
@@ -141,13 +144,24 @@ filetype plugin indent on    "required
 "see :h vundle for more details or wiki for FAQ
 "Put your non-Plugin stuff after this line
 
+let g:PaperColor_Theme_Options = {
+  \   'theme': {
+  \     'default': {
+  \       'transparent_background': 1
+  \     }
+  \   }
+  \ }
+
+"airline设置
+let g:airline_theme='papercolor'
+
 "主题设置
 set t_Co=256
 "let g:molokai_original = 1
 "let g:rehash256 = 1
 "let g:solarized_termcolors=16
-"set background=dark
-colorscheme monokai
+set background=light
+colorscheme PaperColor 
 
 "NERDTree设置
 "在未定义文件的情况下打开目录
