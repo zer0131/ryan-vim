@@ -146,7 +146,7 @@ filetype plugin indent on    "required
 
 let g:PaperColor_Theme_Options = {
   \   'theme': {
-  \     'default': {
+  \     'default.light': {
   \       'transparent_background': 1
   \     }
   \   }
