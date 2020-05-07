@@ -146,7 +146,7 @@ filetype plugin indent on    "required
 
 let g:PaperColor_Theme_Options = {
   \   'theme': {
-  \     'default.light': {
+  \     'default': {
   \       'transparent_background': 1
   \     }
   \   }
@@ -160,7 +160,7 @@ set t_Co=256
 "let g:molokai_original = 1
 "let g:rehash256 = 1
 "let g:solarized_termcolors=16
-set background=light
+set background=dark "light
 colorscheme PaperColor 
 
 "NERDTree设置
