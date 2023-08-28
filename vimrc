@@ -98,7 +98,7 @@ endif
 "autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 "autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+"autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 
 "Vundle设置，先下载
 "$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
@@ -160,7 +160,7 @@ set t_Co=256
 "let g:molokai_original = 1
 "let g:rehash256 = 1
 "let g:solarized_termcolors=16
-set background=dark "light
+set background=light
 colorscheme PaperColor 
 
 "NERDTree设置
@@ -222,3 +222,12 @@ nnoremap <S-F8> :SyntasticReset<CR>
 "\       'host' : '-P22 user@127.0.0.1'
 "\   }
 "\}
+
+"取消换行注释
+augroup Format-Options
+    autocmd!
+    autocmd BufEnter * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+    " This can be done as well instead of the previous line, for setting formatoptions as you choose:
+    autocmd BufEnter * setlocal formatoptions=crqn2l1j
+augroup END
